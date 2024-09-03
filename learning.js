@@ -11,7 +11,7 @@ async function calculateChildsQuantity(executionContext) {
         '<attribute name="cr2ca_fk_inventory" />' +
         '<order attribute="cr2ca_name" descending="false" />' +
         '<filter type="and">' +
-        '<condition attribute="cr2ca_fk_inventory" operator="eq" uiname="Warehouse1" uitype="cr2ca_inventory" value="' + recordId + '" />' +
+        '<condition attribute="cr2ca_fk_inventory" operator="eq"  value="' + recordId + '" />' +
         '</filter>' +
         '</entity>' +
         '</fetch>';
